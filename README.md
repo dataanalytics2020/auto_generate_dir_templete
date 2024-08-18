@@ -11,7 +11,28 @@
 ## 使用方法
 
 1. スクリプトを実行するには、Pythonがインストールされている必要があります。
-2. コマンドラインからスクリプトを実行し、プロジェクトのベースパスを引数として渡します。引数が指定されない場合、デフォルトのパス `attendance_automation` が使用されます。
+2. コマンドラインからスクリプトを実行し、プロジェクトのベースパスを引数として渡します。
+
+## ディレクトリ構成
+## Project Structure
+
+```
+{{cookiecutter.project_slug}}/
+│
+├── src/
+│   ├── main.py
+│   ├── config.py
+│   └── utils.py
+│
+├── logs/
+│   └── log.log
+│
+├── .env
+├── .gitignore
+├── requirements.txt
+└── README.md
+```
+
 
 ### コマンド例
 

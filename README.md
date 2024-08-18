@@ -16,4 +16,7 @@
 ### コマンド例
 
 ```python create_project.py```
-```Enter project name: my_awesome_project```
+
+or
+
+```python3 "/Users/mac/Desktop/auto_generate_dir_templete/create_project.py"```
